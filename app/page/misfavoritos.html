@@ -1,0 +1,52 @@
+<!--<div class="views">-->
+
+   <div class="view view-main view-group" >
+      <div data-name="misfavoritos" class="page no-swipeback">
+	  	  	  
+         <div class="navbar">
+            <div class="navbar-inner">
+						   
+               <div class="left">
+               <!--<a href="#" class="link icon-only open-panel"><i class="icon icon-bars color-white"></i></a>-->
+					<a href="#" class="panel-open link icon-only"><i class="f7-icons">bars</i></a>
+               </div>
+			   <!--<h3><div>Mis favoritos</div></h3>-->
+			   <h3>Mis favoritos</h3>
+			   
+			   <div class="busqueda">
+			   
+					<form id="searchField_misFavoritos" class="searchField" action="" onsubmit="busqueda('cuatro'); return false" >
+						<label for="criterio_misFavoritos">
+						<input name="criterio" type="text" id="criterio_misFavoritos" placeholder="Buscar mis favoritos" value="" onblur="hideBusqueda('cuatro');">
+						</label>
+					</form>
+										
+					<a href="#" class="close" id="close_misFavoritos" style="display: none;"></a>
+					
+			   </div>				   
+			   
+			   <div class="right">
+					<a href="#" onclick="showBusqueda('cuatro');" id="search_misFavoritos" style="display: none;" class="link"></a>
+               </div>	
+			   
+            </div>
+         </div>
+		 
+		 
+         <div class="page-content">
+            <div class="content-block">
+               <div class="list-block">
+			   
+					<div class="swiper-container-misFavoritos">
+						<div class="swiper-wrapper" id="paginacion-misFavoritos" >
+						
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+<!--</div>-->
